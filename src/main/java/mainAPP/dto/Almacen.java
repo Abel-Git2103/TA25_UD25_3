@@ -22,7 +22,7 @@ public class Almacen {
 	private int capacidad;
 
     @OneToMany
-    @JoinColumn(name="numReferencia")
+    @JoinColumn(name="codigo")
     private List<Caja> caja;
     
 	// CONSTRUCTORES
